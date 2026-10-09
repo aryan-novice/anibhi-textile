@@ -403,7 +403,7 @@
     e.preventDefault();
     var wa = $('b-wa').value.replace(/\D/g, '');
     if (wa.length === 10) wa = '91' + wa;
-    if (wa && wa.length < 11) return say('Enter the WhatsApp number with country code, like +91 91222 12333.', 'bad');
+    if (wa && wa.length < 11) return say('Enter the WhatsApp number with country code, like +91 88772 23256.', 'bad');
     saveSite({
       tagline: $('b-tagline').value.trim(),
       headline: $('b-headline').value.trim(),
