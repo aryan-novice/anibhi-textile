@@ -18,7 +18,7 @@
   }
   function digits(s) { return String(s || '').replace(/\D/g, ''); }
   function waLink(msg) {
-    var num = digits(site && site.whatsapp) || '919122212333';
+    var num = digits(site && site.whatsapp) || '918877223256';
     return 'https://wa.me/' + num + (msg ? '?text=' + encodeURIComponent(msg) : '');
   }
   function catName(id) {
@@ -54,9 +54,11 @@
     $('addr').textContent = site.address || '';
     $('addr').hidden = !site.address;
     var handle = String(site.instagram || '').replace(/^@/, '');
-    $('ig').hidden = !handle;
-    $('ig').href = 'https://www.instagram.com/' + handle + '/';
-    $('ig-handle').textContent = '@' + handle;
+    document.querySelectorAll('[data-ig]').forEach(function (a) {
+      a.hidden = !handle;
+      a.href = 'https://www.instagram.com/' + handle + '/';
+    });
+    document.querySelectorAll('[data-ig-handle]').forEach(function (n) { n.textContent = '@' + handle; });
 
     var want = $('f-want');
     want.textContent = '';

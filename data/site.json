@@ -4,15 +4,31 @@
   "headline": "Where heritage becomes luxury",
   "intro": "Authentic Banarasi silk sarees, woven on the handlooms of Kashi, alongside premium linen shirts and trousers for everyday elegance. Sold wholesale and retail, delivered across India.",
   "about": "Anibhi Textile manufactures and wholesales premium silk sarees from Varanasi, where weaving families have passed their craft down for centuries. We work with the looms of Banaras to bring that tradition to your wardrobe and your store.",
-  "whatsapp": "919122212333",
-  "phones": ["+91 91222 12333", "+91 80765 81002"],
+  "whatsapp": "918877223256",
+  "phones": [
+    "+91 88772 23256",
+    "+91 91222 12333",
+    "+91 80765 81002"
+  ],
   "instagram": "anibhi_textile",
   "email": "",
   "address": "Varanasi (Kashi), Uttar Pradesh",
   "categories": [
-    { "id": "banarasi-silk", "name": "Banarasi Silk" },
-    { "id": "handloom", "name": "Handloom" },
-    { "id": "linen-shirts", "name": "Linen Shirts" },
-    { "id": "linen-pants", "name": "Linen Pants" }
+    {
+      "id": "banarasi-silk",
+      "name": "Banarasi Silk"
+    },
+    {
+      "id": "handloom",
+      "name": "Handloom"
+    },
+    {
+      "id": "linen-shirts",
+      "name": "Linen Shirts"
+    },
+    {
+      "id": "linen-pants",
+      "name": "Linen Pants"
+    }
   ]
 }
